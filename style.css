@@ -1,0 +1,114 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* Style the tab */
+.ibmmtab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.ibmmtab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.ibmmtab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.ibmmtab button.active {
+    background-color: #0094BA;
+}
+
+/* Style the tab content */
+.ibmmtabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the answer blocks */
+.ibmmanswer {
+    display: none;
+}
+
+/*** Take out the divider line between content and sidebar ***/
+#main-content .container:before {background: none;}
+ 
+/*** Hide Sidebar ***/
+#sidebar {display:none;}
+ 
+/*** Expand the content area to fullwidth ***/
+@media (min-width: 981px){
+#left-area {
+    width: 100%;
+    padding: 23px 0px 0px !important;
+    float: none !important;
+}
+}
+
+/* for centering images*/
+.ibmmcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* style the buttons */
+
+.ibmmbutton {
+    
+    background:    #3d85c6;
+    background:    -webkit-linear-gradient(#3d85c6, #0094ba);
+    background:    linear-gradient(#3d85c6, #0094ba);
+    border-radius: 5px;
+    padding:       8px 20px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 700 24px/1 "Calibri", sans-serif;
+    text-align:    center;
+    text-shadow:   1px 1px #0094ba;
+    transition:    0.3s;
+    cursor:        pointer;
+}
+
+.ibmmbutton:hover {
+    background-color: #1E90FF;
+}
+
+#tourButton {
+    position:fixed;
+    bottom:15%;
+    right:1.7%;
+    z-index:9999;
+    border-radius: 50%;
+    background-color: rgb(34, 34, 34);
+    border: none;
+    color: white;
+    height: 48px;
+    width: 48px;
+    box-shadow: 0 6px 13px 0 rgba(0,0,0,.22);
+    cursor: pointer;
+}
