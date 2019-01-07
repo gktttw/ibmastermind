@@ -1,0 +1,505 @@
+0928.358 (1) Opened log file at time: Thu, 27 Dec 2018 01:20:43 +0000 on https://localhost/oldone
+0928.359 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0928.360 (1) Free space on disk containing Updraft's temporary directory: 20313 MB
+0928.363 (1) Backup run: resumption=1, nonce=fbbfe6545fc6, begun at=1545872714 (929s ago), job type=backup, previous check-in=118.8s
+0928.366 (1) Scheduling a resumption (2) after 300 seconds (1545873943) in case this run gets aborted
+0928.368 (1) Checking if we have a zip executable available
+0928.369 (1) Creation of backups of directories: already finished
+0928.370 (1) Saving backup status to database (elements: 8)
+0928.373 (1) Database dump (WordPress DB): Creation was completed already
+0928.377 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0928.378 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0928.379 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0928.381 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+0928.382 (1) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+0928.383 (1) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+0928.385 (1) Saving backup history. Total backup size: Unknown
+0928.388 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0928.389 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0928.390 (1) Beginning dispatch of backup to remote (email)
+0928.391 (1) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0928.391 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+0929.560 (1) Mails were not sent successfully
+0929.561 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+0930.625 (1) Mails were not sent successfully
+0930.626 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+0931.642 (1) Mails were not sent successfully
+0931.643 (1) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+0932.654 (1) Mails were not sent successfully
+0932.655 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0932.656 (1) Number of backup sets in history: 4; groups (db): 1
+0932.657 (1) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0932.657 (1) This backup set is the backup set just made, so will not be deleted.
+0932.657 (1) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0932.657 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.658 (1) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0932.658 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.658 (1) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+0932.658 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.658 (1) Number of backup sets in history: 4; groups (files): 1
+0932.659 (1) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0932.659 (1) This backup set is the backup set just made, so will not be deleted.
+0932.659 (1) This backup set is the backup set just made, so will not be deleted.
+0932.659 (1) This backup set is the backup set just made, so will not be deleted.
+0932.660 (1) This backup set is the backup set just made, so will not be deleted.
+0932.660 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.661 (1) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0932.661 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.661 (1) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0932.661 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.661 (1) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+0932.661 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0932.661 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0932.664 (1) Resume backup (fbbfe6545fc6, 1): finish run
+0932.665 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0932.666 (1) No email will/can be sent - the user has not configured an email address.
+0932.667 (1) The backup has not finished; a resumption is scheduled
+1297.175 (2) Opened log file at time: Thu, 27 Dec 2018 01:26:52 +0000 on https://localhost/oldone
+1297.176 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 10M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1297.176 (2) Free space on disk containing Updraft's temporary directory: 20257.3 MB
+1297.177 (2) Backup run: resumption=2, nonce=fbbfe6545fc6, begun at=1545872714 (1298s ago), job type=backup
+1297.178 (2) Scheduling a resumption (3) after 300 seconds (1545874312) in case this run gets aborted
+1297.180 (2) Checking if we have a zip executable available
+1297.180 (2) Creation of backups of directories: already finished
+1297.181 (2) Saving backup status to database (elements: 8)
+1297.183 (2) Database dump (WordPress DB): Creation was completed already
+1297.185 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1297.187 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1297.188 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1297.192 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+1297.194 (2) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+1297.197 (2) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+1297.201 (2) Saving backup history. Total backup size: Unknown
+1297.208 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+1297.214 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+1297.217 (2) Beginning dispatch of backup to remote (email)
+1297.220 (2) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1297.223 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+1298.423 (2) Mails were not sent successfully
+1298.426 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+1299.520 (2) Mails were not sent successfully
+1299.526 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+1300.571 (2) Mails were not sent successfully
+1300.572 (2) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+1301.578 (2) Mails were not sent successfully
+1301.579 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1301.580 (2) Number of backup sets in history: 4; groups (db): 1
+1301.581 (2) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1301.581 (2) This backup set is the backup set just made, so will not be deleted.
+1301.581 (2) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1301.581 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.582 (2) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1301.582 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.582 (2) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+1301.582 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.582 (2) Number of backup sets in history: 4; groups (files): 1
+1301.582 (2) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1301.582 (2) This backup set is the backup set just made, so will not be deleted.
+1301.583 (2) This backup set is the backup set just made, so will not be deleted.
+1301.583 (2) This backup set is the backup set just made, so will not be deleted.
+1301.583 (2) This backup set is the backup set just made, so will not be deleted.
+1301.583 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.584 (2) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1301.584 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.584 (2) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1301.584 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.584 (2) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+1301.584 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1301.584 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1301.586 (2) Resume backup (fbbfe6545fc6, 2): finish run
+1301.588 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1301.589 (2) No email will/can be sent - the user has not configured an email address.
+1301.590 (2) The backup has not finished; a resumption is scheduled
+1657.375 (3) Opened log file at time: Thu, 27 Dec 2018 01:32:52 +0000 on https://localhost/oldone
+1657.376 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 8M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1657.377 (3) Free space on disk containing Updraft's temporary directory: 20168.4 MB
+1657.378 (3) Backup run: resumption=3, nonce=fbbfe6545fc6, begun at=1545872714 (1658s ago), job type=backup
+1657.379 (3) Scheduling a resumption (4) after 300 seconds (1545874672) in case this run gets aborted
+1657.381 (3) Checking if we have a zip executable available
+1657.382 (3) Creation of backups of directories: already finished
+1657.383 (3) Saving backup status to database (elements: 8)
+1657.385 (3) Database dump (WordPress DB): Creation was completed already
+1657.388 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1657.388 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1657.389 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1657.389 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+1657.390 (3) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+1657.391 (3) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+1657.392 (3) Saving backup history. Total backup size: Unknown
+1657.394 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+1657.395 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+1657.395 (3) Beginning dispatch of backup to remote (email)
+1657.396 (3) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1657.397 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+1658.620 (3) Mails were not sent successfully
+1658.621 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+1659.737 (3) Mails were not sent successfully
+1659.738 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+1660.781 (3) Mails were not sent successfully
+1660.782 (3) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+1661.787 (3) Mails were not sent successfully
+1661.788 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1661.789 (3) Number of backup sets in history: 4; groups (db): 1
+1661.790 (3) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1661.790 (3) This backup set is the backup set just made, so will not be deleted.
+1661.790 (3) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1661.790 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.791 (3) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1661.791 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.791 (3) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+1661.791 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.791 (3) Number of backup sets in history: 4; groups (files): 1
+1661.791 (3) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1661.791 (3) This backup set is the backup set just made, so will not be deleted.
+1661.792 (3) This backup set is the backup set just made, so will not be deleted.
+1661.792 (3) This backup set is the backup set just made, so will not be deleted.
+1661.792 (3) This backup set is the backup set just made, so will not be deleted.
+1661.792 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.793 (3) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1661.793 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.793 (3) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1661.793 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.793 (3) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+1661.793 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1661.793 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1661.795 (3) Resume backup (fbbfe6545fc6, 3): finish run
+1661.796 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1661.798 (3) No email will/can be sent - the user has not configured an email address.
+1661.799 (3) The backup has not finished; a resumption is scheduled
+2017.181 (4) Opened log file at time: Thu, 27 Dec 2018 01:38:52 +0000 on https://localhost/oldone
+2017.182 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 8M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+2017.183 (4) Free space on disk containing Updraft's temporary directory: 20105 MB
+2017.184 (4) Backup run: resumption=4, nonce=fbbfe6545fc6, begun at=1545872714 (2018s ago), job type=backup
+2017.185 (4) Scheduling a resumption (5) after 300 seconds (1545875032) in case this run gets aborted
+2017.186 (4) Checking if we have a zip executable available
+2017.186 (4) Creation of backups of directories: already finished
+2017.187 (4) Saving backup status to database (elements: 8)
+2017.190 (4) Database dump (WordPress DB): Creation was completed already
+2017.193 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2017.194 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2017.194 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2017.195 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+2017.195 (4) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+2017.196 (4) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+2017.197 (4) Saving backup history. Total backup size: Unknown
+2017.200 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+2017.201 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+2017.201 (4) Beginning dispatch of backup to remote (email)
+2017.202 (4) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2017.202 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+2018.320 (4) Mails were not sent successfully
+2018.321 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+2019.360 (4) Mails were not sent successfully
+2019.361 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+2020.375 (4) Mails were not sent successfully
+2020.376 (4) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+2021.380 (4) Mails were not sent successfully
+2021.382 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2021.383 (4) Number of backup sets in history: 4; groups (db): 1
+2021.384 (4) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2021.384 (4) This backup set is the backup set just made, so will not be deleted.
+2021.384 (4) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2021.385 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.385 (4) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2021.385 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.385 (4) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+2021.385 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.385 (4) Number of backup sets in history: 4; groups (files): 1
+2021.386 (4) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2021.386 (4) This backup set is the backup set just made, so will not be deleted.
+2021.386 (4) This backup set is the backup set just made, so will not be deleted.
+2021.387 (4) This backup set is the backup set just made, so will not be deleted.
+2021.387 (4) This backup set is the backup set just made, so will not be deleted.
+2021.387 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.387 (4) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2021.387 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.387 (4) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2021.387 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.388 (4) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+2021.388 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2021.388 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2021.390 (4) Resume backup (fbbfe6545fc6, 4): finish run
+2021.391 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2021.392 (4) No email will/can be sent - the user has not configured an email address.
+2021.393 (4) The backup has not finished; a resumption is scheduled
+2365.960 (5) Opened log file at time: Thu, 27 Dec 2018 01:44:40 +0000 on https://localhost/oldone
+2365.961 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 8M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+2365.962 (5) Free space on disk containing Updraft's temporary directory: 20048.2 MB
+2365.963 (5) Backup run: resumption=5, nonce=fbbfe6545fc6, begun at=1545872714 (2366s ago), job type=backup
+2365.963 (5) Scheduling a resumption (6) after 300 seconds (1545875380) in case this run gets aborted
+2365.964 (5) Checking if we have a zip executable available
+2365.965 (5) Creation of backups of directories: already finished
+2365.966 (5) Saving backup status to database (elements: 8)
+2365.970 (5) Database dump (WordPress DB): Creation was completed already
+2365.978 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2365.982 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2365.983 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2365.985 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+2365.987 (5) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+2365.988 (5) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+2365.992 (5) Saving backup history. Total backup size: Unknown
+2365.997 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+2366.001 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+2366.001 (5) Beginning dispatch of backup to remote (email)
+2366.004 (5) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2366.006 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+2367.171 (5) Mails were not sent successfully
+2367.174 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+2368.295 (5) Mails were not sent successfully
+2368.296 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+2369.341 (5) Mails were not sent successfully
+2369.342 (5) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+2370.373 (5) Mails were not sent successfully
+2370.375 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2370.377 (5) Number of backup sets in history: 4; groups (db): 1
+2370.378 (5) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2370.378 (5) This backup set is the backup set just made, so will not be deleted.
+2370.378 (5) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2370.378 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.379 (5) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2370.379 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.379 (5) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+2370.379 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.380 (5) Number of backup sets in history: 4; groups (files): 1
+2370.380 (5) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2370.380 (5) This backup set is the backup set just made, so will not be deleted.
+2370.381 (5) This backup set is the backup set just made, so will not be deleted.
+2370.381 (5) This backup set is the backup set just made, so will not be deleted.
+2370.381 (5) This backup set is the backup set just made, so will not be deleted.
+2370.381 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.381 (5) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2370.381 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.382 (5) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2370.382 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.382 (5) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+2370.382 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2370.382 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2370.384 (5) Resume backup (fbbfe6545fc6, 5): finish run
+2370.385 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2370.386 (5) No email will/can be sent - the user has not configured an email address.
+2370.386 (5) The backup has not finished; a resumption is scheduled
+2723.705 (6) Opened log file at time: Thu, 27 Dec 2018 01:50:38 +0000 on https://localhost/oldone
+2723.706 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 8M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+2723.707 (6) Free space on disk containing Updraft's temporary directory: 20042.6 MB
+2723.708 (6) Backup run: resumption=6, nonce=fbbfe6545fc6, begun at=1545872714 (2724s ago), job type=backup
+2723.708 (6) Scheduling a resumption (7) after 300 seconds (1545875738) in case this run gets aborted
+2723.710 (6) Checking if we have a zip executable available
+2723.710 (6) Creation of backups of directories: already finished
+2723.711 (6) Saving backup status to database (elements: 8)
+2723.713 (6) Database dump (WordPress DB): Creation was completed already
+2723.715 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2723.715 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2723.716 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2723.716 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+2723.717 (6) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+2723.718 (6) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+2723.719 (6) Saving backup history. Total backup size: Unknown
+2723.721 (6) Requesting upload of the files that have not yet been successfully uploaded (4)
+2723.722 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+2723.722 (6) Beginning dispatch of backup to remote (email)
+2723.723 (6) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2723.723 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+2724.827 (6) Mails were not sent successfully
+2724.828 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+2725.874 (6) Mails were not sent successfully
+2725.875 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+2726.891 (6) Mails were not sent successfully
+2726.892 (6) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+2727.921 (6) Mails were not sent successfully
+2727.923 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2727.924 (6) Number of backup sets in history: 4; groups (db): 1
+2727.925 (6) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2727.925 (6) This backup set is the backup set just made, so will not be deleted.
+2727.925 (6) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2727.925 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.926 (6) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2727.926 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.926 (6) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+2727.926 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.926 (6) Number of backup sets in history: 4; groups (files): 1
+2727.927 (6) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2727.927 (6) This backup set is the backup set just made, so will not be deleted.
+2727.927 (6) This backup set is the backup set just made, so will not be deleted.
+2727.928 (6) This backup set is the backup set just made, so will not be deleted.
+2727.928 (6) This backup set is the backup set just made, so will not be deleted.
+2727.928 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.928 (6) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2727.928 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.928 (6) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2727.928 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.929 (6) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+2727.929 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2727.929 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2727.931 (6) Resume backup (fbbfe6545fc6, 6): finish run
+2727.932 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2727.933 (6) No email will/can be sent - the user has not configured an email address.
+2727.934 (6) The backup has not finished; a resumption is scheduled
+4364.882 (7) Opened log file at time: Thu, 27 Dec 2018 02:17:59 +0000 on https://localhost/oldone
+4364.883 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 8M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+4364.884 (7) Free space on disk containing Updraft's temporary directory: 19961.5 MB
+4364.885 (7) Backup run: resumption=7, nonce=fbbfe6545fc6, begun at=1545872714 (4365s ago), job type=backup
+4364.886 (7) Long time past since expected resumption time: approx expected=1545875733.4, now=1545877079.9, diff=1346.5
+4364.887 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+4364.887 (7) Scheduling a resumption (8) after 300 seconds (1545877379) in case this run gets aborted
+4364.889 (7) Checking if we have a zip executable available
+4364.889 (7) Creation of backups of directories: already finished
+4364.890 (7) Saving backup status to database (elements: 8)
+4364.893 (7) Database dump (WordPress DB): Creation was completed already
+4364.896 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4364.897 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4364.898 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4364.899 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+4364.900 (7) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+4364.900 (7) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+4364.902 (7) Saving backup history. Total backup size: Unknown
+4364.904 (7) Requesting upload of the files that have not yet been successfully uploaded (4)
+4364.905 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+4364.905 (7) Beginning dispatch of backup to remote (email)
+4364.906 (7) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+4364.906 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+4366.045 (7) Mails were not sent successfully
+4366.046 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+4367.096 (7) Mails were not sent successfully
+4367.096 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+4368.122 (7) Mails were not sent successfully
+4368.123 (7) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+4369.141 (7) Mails were not sent successfully
+4369.143 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+4369.144 (7) Number of backup sets in history: 4; groups (db): 1
+4369.144 (7) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+4369.146 (7) This backup set is the backup set just made, so will not be deleted.
+4369.146 (7) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+4369.146 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.146 (7) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+4369.146 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.146 (7) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+4369.146 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.147 (7) Number of backup sets in history: 4; groups (files): 1
+4369.147 (7) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+4369.147 (7) This backup set is the backup set just made, so will not be deleted.
+4369.148 (7) This backup set is the backup set just made, so will not be deleted.
+4369.148 (7) This backup set is the backup set just made, so will not be deleted.
+4369.148 (7) This backup set is the backup set just made, so will not be deleted.
+4369.148 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.149 (7) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+4369.149 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.149 (7) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+4369.149 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.149 (7) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+4369.149 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+4369.149 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4369.151 (7) Resume backup (fbbfe6545fc6, 7): finish run
+4369.152 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4369.154 (7) No email will/can be sent - the user has not configured an email address.
+4369.154 (7) The backup has not finished; a resumption is scheduled
+4669.609 (8) Opened log file at time: Thu, 27 Dec 2018 02:23:04 +0000 on https://localhost/oldone
+4669.611 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 28M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+4669.612 (8) Free space on disk containing Updraft's temporary directory: 19960.7 MB
+4669.613 (8) Backup run: resumption=8, nonce=fbbfe6545fc6, begun at=1545872714 (4670s ago), job type=backup
+4669.614 (8) Scheduling a resumption (9) after 300 seconds (1545877684) in case this run gets aborted
+4669.615 (8) Checking if we have a zip executable available
+4669.615 (8) Creation of backups of directories: already finished
+4669.617 (8) Saving backup status to database (elements: 8)
+4669.618 (8) Database dump (WordPress DB): Creation was completed already
+4669.620 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4669.621 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4669.621 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4669.622 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+4669.623 (8) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+4669.623 (8) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+4669.624 (8) Saving backup history. Total backup size: Unknown
+4669.628 (8) Requesting upload of the files that have not yet been successfully uploaded (4)
+4669.629 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+4669.630 (8) Beginning dispatch of backup to remote (email)
+4669.630 (8) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+4669.631 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+4670.755 (8) Mails were not sent successfully
+4670.756 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+4671.807 (8) Mails were not sent successfully
+4671.808 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+4672.828 (8) Mails were not sent successfully
+4672.828 (8) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+4673.832 (8) Mails were not sent successfully
+4673.834 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+4673.834 (8) Number of backup sets in history: 4; groups (db): 1
+4673.835 (8) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+4673.835 (8) This backup set is the backup set just made, so will not be deleted.
+4673.835 (8) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+4673.835 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.836 (8) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+4673.836 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.836 (8) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+4673.836 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.836 (8) Number of backup sets in history: 4; groups (files): 1
+4673.837 (8) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+4673.837 (8) This backup set is the backup set just made, so will not be deleted.
+4673.837 (8) This backup set is the backup set just made, so will not be deleted.
+4673.837 (8) This backup set is the backup set just made, so will not be deleted.
+4673.838 (8) This backup set is the backup set just made, so will not be deleted.
+4673.838 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.838 (8) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+4673.838 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.838 (8) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+4673.838 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.838 (8) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+4673.838 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+4673.838 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+4673.840 (8) Resume backup (fbbfe6545fc6, 8): finish run
+4673.843 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4673.845 (8) No email will/can be sent - the user has not configured an email address.
+4673.846 (8) The backup has not finished; a resumption is scheduled
+5004.620 (9) Opened log file at time: Thu, 27 Dec 2018 02:28:39 +0000 on https://localhost/oldone
+5004.621 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 48.7M | 10M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+5004.621 (9) Free space on disk containing Updraft's temporary directory: 19923.5 MB
+5004.623 (9) Backup run: resumption=9, nonce=fbbfe6545fc6, begun at=1545872714 (5005s ago), job type=backup
+5004.624 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+5004.624 (9) Creation of backups of directories: already finished
+5004.626 (9) Saving backup status to database (elements: 8)
+5004.628 (9) Database dump (WordPress DB): Creation was completed already
+5004.630 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5004.631 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5004.631 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5004.632 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: others: This file has not yet been successfully uploaded: will queue
+5004.633 (9) backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz: db: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\xampp\htdocs\oldone/wp-content/updraft/backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz)
+5004.633 (9) Recording as successfully uploaded: backup_2018-12-27-0105_IB_MasterMind_fbbfe6545fc6-db.gz
+5004.634 (9) Saving backup history. Total backup size: Unknown
+5004.636 (9) Requesting upload of the files that have not yet been successfully uploaded (4)
+5004.638 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+5004.638 (9) Beginning dispatch of backup to remote (email)
+5004.639 (9) [Warning] backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: This backup archive is 30.6 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+5004.639 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-plugins.zip: email to: hamis...
+5005.771 (9) Mails were not sent successfully
+5005.772 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-themes.zip: email to: hamis...
+5006.818 (9) Mails were not sent successfully
+5006.819 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-uploads.zip: email to: hamis...
+5007.834 (9) Mails were not sent successfully
+5007.835 (9) backup_2018-12-27-0105_IB_MasterMind_4d7d97d89f76-others.zip: email to: hamis...
+5008.866 (9) Mails were not sent successfully
+5008.871 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+5008.872 (9) Number of backup sets in history: 4; groups (db): 1
+5008.876 (9) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+5008.877 (9) This backup set is the backup set just made, so will not be deleted.
+5008.877 (9) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+5008.877 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.877 (9) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+5008.877 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.877 (9) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+5008.877 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.877 (9) Number of backup sets in history: 4; groups (files): 1
+5008.880 (9) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+5008.880 (9) This backup set is the backup set just made, so will not be deleted.
+5008.882 (9) This backup set is the backup set just made, so will not be deleted.
+5008.882 (9) This backup set is the backup set just made, so will not be deleted.
+5008.882 (9) This backup set is the backup set just made, so will not be deleted.
+5008.882 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.883 (9) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+5008.883 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.883 (9) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+5008.883 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.883 (9) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+5008.883 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5008.883 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+5008.887 (9) Resume backup (fbbfe6545fc6, 9): finish run
+5008.891 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5008.895 (9) No email will/can be sent - the user has not configured an email address.
+5008.896 (9) The backup attempt has finished, apparently unsuccessfully

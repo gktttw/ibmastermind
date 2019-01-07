@@ -1,0 +1,979 @@
+0000.001 (0) Opened log file at time: Wed, 02 Jan 2019 23:11:11 +0000 on https://localhost/oldone
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.8M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 19557.7 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.011 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.015 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1545872715, seconds_ago=597956)
+0000.017 (0) Set semaphore last lock (fd) time to 2019-01-02 23:11:11
+0000.018 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=583956e22676, begun at=1546470671 (0s ago), job type=backup
+0000.021 (0) Scheduling a resumption (1) after 300 seconds (1546470971) in case this run gets aborted
+0000.029 (0) Checking if we have a zip executable available
+0000.030 (0) Creation of backups of directories: beginning
+0000.040 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.472 (0) Total entities for the zip file: 1216 directories, 8028 files (0 skipped as non-modified), 103.6 MB
+0003.475 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.591 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 100 files added (on-disk size: 214.5 KB)
+0003.640 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 200 files added (on-disk size: 214.5 KB)
+0003.688 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 300 files added (on-disk size: 214.5 KB)
+0003.737 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 400 files added (on-disk size: 214.5 KB)
+0003.786 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 500 files added (on-disk size: 214.5 KB)
+0003.788 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 8028 files batched, 501 (502) added so far); re-opening (prior size: 214.5 KB)
+0004.270 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 600 files added (on-disk size: 1580.7 KB)
+0004.365 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 700 files added (on-disk size: 1580.7 KB)
+0004.463 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 800 files added (on-disk size: 1580.7 KB)
+0004.513 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 900 files added (on-disk size: 1580.7 KB)
+0004.564 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1000 files added (on-disk size: 1580.7 KB)
+0004.567 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.4 MB, 8028 files batched, 501 (1003) added so far); re-opening (prior size: 1580.7 KB)
+0005.034 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1100 files added (on-disk size: 2692.2 KB)
+0005.081 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1200 files added (on-disk size: 2692.2 KB)
+0005.130 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1300 files added (on-disk size: 2692.2 KB)
+0005.181 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1400 files added (on-disk size: 2692.2 KB)
+0005.229 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1500 files added (on-disk size: 2692.2 KB)
+0005.232 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.7 MB, 8028 files batched, 501 (1504) added so far); re-opening (prior size: 2692.2 KB)
+0005.844 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1600 files added (on-disk size: 5195.7 KB)
+0005.893 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1700 files added (on-disk size: 5195.7 KB)
+0005.940 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1800 files added (on-disk size: 5195.7 KB)
+0006.020 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 1900 files added (on-disk size: 5195.7 KB)
+0006.070 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2000 files added (on-disk size: 5195.7 KB)
+0006.072 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.8 MB, 8028 files batched, 501 (2005) added so far); re-opening (prior size: 5195.7 KB)
+0006.928 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2100 files added (on-disk size: 7871.3 KB)
+0006.977 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2200 files added (on-disk size: 7871.3 KB)
+0007.061 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2300 files added (on-disk size: 7871.3 KB)
+0007.110 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2400 files added (on-disk size: 7871.3 KB)
+0007.158 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2500 files added (on-disk size: 7871.3 KB)
+0007.162 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 8028 files batched, 501 (2506) added so far); re-opening (prior size: 7871.3 KB)
+0007.683 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2600 files added (on-disk size: 9079 KB)
+0007.747 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2700 files added (on-disk size: 9079 KB)
+0007.877 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2800 files added (on-disk size: 9079 KB)
+0007.928 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 2900 files added (on-disk size: 9079 KB)
+0008.014 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3000 files added (on-disk size: 9079 KB)
+0008.019 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.2 MB, 8028 files batched, 501 (3007) added so far); re-opening (prior size: 9079 KB)
+0009.113 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3100 files added (on-disk size: 11164.1 KB)
+0009.164 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3200 files added (on-disk size: 11164.1 KB)
+0009.214 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3300 files added (on-disk size: 11164.1 KB)
+0009.263 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3400 files added (on-disk size: 11164.1 KB)
+0009.312 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3500 files added (on-disk size: 11164.1 KB)
+0009.317 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.3 MB, 8028 files batched, 501 (3508) added so far); re-opening (prior size: 11164.1 KB)
+0009.865 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3600 files added (on-disk size: 12536.8 KB)
+0009.915 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3700 files added (on-disk size: 12536.8 KB)
+0009.964 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3800 files added (on-disk size: 12536.8 KB)
+0010.106 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 3900 files added (on-disk size: 12536.8 KB)
+0010.200 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4000 files added (on-disk size: 12536.8 KB)
+0010.205 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.4 MB, 8028 files batched, 501 (4009) added so far); re-opening (prior size: 12536.8 KB)
+0011.218 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4100 files added (on-disk size: 16438.2 KB)
+0011.339 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4200 files added (on-disk size: 16438.2 KB)
+0011.393 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4300 files added (on-disk size: 16438.2 KB)
+0011.443 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4400 files added (on-disk size: 16438.2 KB)
+0011.493 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4500 files added (on-disk size: 16438.2 KB)
+0011.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 MB, 8028 files batched, 501 (4510) added so far); re-opening (prior size: 16438.2 KB)
+0012.302 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4600 files added (on-disk size: 18219 KB)
+0012.350 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4700 files added (on-disk size: 18219 KB)
+0012.459 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4800 files added (on-disk size: 18219 KB)
+0012.546 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 4900 files added (on-disk size: 18219 KB)
+0012.595 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5000 files added (on-disk size: 18219 KB)
+0012.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20.1 MB, 8028 files batched, 501 (5011) added so far); re-opening (prior size: 18219 KB)
+0014.663 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5100 files added (on-disk size: 23879.2 KB)
+0014.789 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5200 files added (on-disk size: 23879.2 KB)
+0014.856 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5300 files added (on-disk size: 23879.2 KB)
+0014.906 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5400 files added (on-disk size: 23879.2 KB)
+0014.958 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5500 files added (on-disk size: 23879.2 KB)
+0014.964 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 8028 files batched, 501 (5512) added so far); re-opening (prior size: 23879.2 KB)
+0015.625 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5600 files added (on-disk size: 24577 KB)
+0015.676 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5700 files added (on-disk size: 24577 KB)
+0015.725 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5800 files added (on-disk size: 24577 KB)
+0015.774 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 5900 files added (on-disk size: 24577 KB)
+0015.824 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6000 files added (on-disk size: 24577 KB)
+0015.831 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 8028 files batched, 501 (6013) added so far); re-opening (prior size: 24577 KB)
+0016.812 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6100 files added (on-disk size: 27233.7 KB)
+0016.862 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6200 files added (on-disk size: 27233.7 KB)
+0016.911 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6300 files added (on-disk size: 27233.7 KB)
+0016.963 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6400 files added (on-disk size: 27233.7 KB)
+0017.013 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6500 files added (on-disk size: 27233.7 KB)
+0017.036 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9 MB, 8028 files batched, 501 (6514) added so far); re-opening (prior size: 27233.7 KB)
+0018.373 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6600 files added (on-disk size: 31018.7 KB)
+0018.424 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6700 files added (on-disk size: 31018.7 KB)
+0018.474 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6800 files added (on-disk size: 31018.7 KB)
+0018.524 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 6900 files added (on-disk size: 31018.7 KB)
+0018.575 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7000 files added (on-disk size: 31018.7 KB)
+0018.583 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.4 MB, 8028 files batched, 501 (7015) added so far); re-opening (prior size: 31018.7 KB)
+0019.776 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7100 files added (on-disk size: 34254 KB)
+0019.827 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7200 files added (on-disk size: 34254 KB)
+0019.875 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7300 files added (on-disk size: 34254 KB)
+0019.924 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7400 files added (on-disk size: 34254 KB)
+0019.973 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7500 files added (on-disk size: 34254 KB)
+0019.982 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.9 MB, 8028 files batched, 501 (7516) added so far); re-opening (prior size: 34254 KB)
+0020.798 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7600 files added (on-disk size: 35068.5 KB)
+0020.849 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7700 files added (on-disk size: 35068.5 KB)
+0020.899 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7800 files added (on-disk size: 35068.5 KB)
+0020.948 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 7900 files added (on-disk size: 35068.5 KB)
+0021.163 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip.tmp: 8000 files added (on-disk size: 35068.5 KB)
+0021.172 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5 MB, 8028 files batched, 501 (8017) added so far); re-opening (prior size: 35068.5 KB)
+0023.144 (0) Created plugins zip (0) - 36805.9 KB in 23.1 s (1593.7 KB/s) (sha1: d5ca4b68781ee31f0ecc98ed403afe8ae86b7dec, sha256: 77a94825cbb9e6b7d8b9f57180b9cf50c0f0754f01dc244a5f002ea32375211d)
+0023.148 (0) Beginning creation of dump of themes (split every: 400 MB)
+0023.486 (0) Total entities for the zip file: 153 directories, 757 files (0 skipped as non-modified), 24.8 MB
+0023.537 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0023.584 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0023.635 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0023.683 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0023.733 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0023.734 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.6 MB, 757 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0025.337 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 600 files added (on-disk size: 4982.4 KB)
+0025.386 (0) Zip: backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip.tmp: 700 files added (on-disk size: 4982.4 KB)
+0026.216 (0) Created themes zip (0) - 8054.6 KB in 3.1 s (2635.8 KB/s) (sha1: f4f10fca9417ab7a5e90745c66218384d9190028, sha256: f18359fc5832ddf9a5627f5077e977791a410ad34864b5dd22050911e9825945)
+0026.219 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0026.219 (0) Looking for candidates to backup in: C:\xampp\htdocs\oldone/wp-content/uploads
+0026.220 (0) finding files: .htaccess: adding to list (1)
+0026.221 (0) finding files: 2018: adding to list (2)
+0026.221 (0) finding files: 2019: adding to list (3)
+0026.221 (0) finding files: avatars: adding to list (4)
+0026.222 (0) finding files: et_temp: adding to list (5)
+0026.222 (0) finding files: sucuri: adding to list (6)
+0026.223 (0) finding files: ultimatemember: adding to list (7)
+0026.223 (0) finding files: wp_livechat_error_log.txt: adding to list (8)
+0026.224 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0026.270 (0) Total entities for the zip file: 17 directories, 80 files (0 skipped as non-modified), 2.7 MB
+0026.374 (0) Created uploads zip (0) - 2765.9 KB in 0.1 s (19950.4 KB/s) (sha1: ac3d21c93578e8bd6a39c276419f0608b2e263c6, sha256: 6dd80aebfa393ee497ea1965dc4adcd12c9ff4a0c8aee637fda4dd1dbf76ae06)
+0026.378 (0) Beginning backup of other directories found in the content directory (index: 0)
+0026.379 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0026.379 (0) Looking for candidates to backup in: C:\xampp\htdocs\oldone/wp-content
+0026.380 (0) finding files: advanced-cache.php: adding to list (1)
+0026.380 (0) finding files: cache: skipping: excluded by options
+0026.381 (0) finding files: index.php: adding to list (2)
+0026.381 (0) finding files: languages: adding to list (3)
+0026.381 (0) finding files: plugins: skipping: this is the plugins directory
+0026.382 (0) finding files: themes: skipping: this is the themes directory
+0026.382 (0) finding files: updraft: skipping: this is the updraft directory
+0026.383 (0) finding files: upgrade: skipping: excluded by options
+0026.383 (0) finding files: uploads: skipping: this is the uploads directory
+0026.383 (0) finding files: wp-rocket-config: adding to list (4)
+0026.402 (0) Total entities for the zip file: 3 directories, 5 files (0 skipped as non-modified), 0 MB
+0026.416 (0) Created others zip (0) - 2.4 KB in 0 s (122.5 KB/s) (sha1: 8e27e7196c7f4d14808e7cb1c64ac26bc9eb5722, sha256: 76f7d1503428af962ae0fb2bdc14d8006579f3aad0bcfb59c4db1b60df62bc4f)
+0026.420 (0) Saving backup status to database (elements: 8)
+0026.422 (0) Beginning creation of database dump (WordPress DB)
+0026.438 (0) Table wp88_options: Total expected rows (approximate): 475
+0026.493 (0) Table wp88_options: Total rows added: 470 in 0.05 seconds
+0026.499 (0) Table wp88_options: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_options.table.gz - 106.4 KB)
+0026.504 (0) Table wp88_users: Total expected rows (approximate): 34
+0026.515 (0) Table wp88_users: Total rows added: 34 in 0.01 seconds
+0026.520 (0) Table wp88_users: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_users.table.gz - 2.7 KB)
+0026.526 (0) Table wp88_usermeta: Total expected rows (approximate): 818
+0026.538 (0) Table wp88_usermeta: Total rows added: 818 in 0.01 seconds
+0026.544 (0) Table wp88_usermeta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_usermeta.table.gz - 11.3 KB)
+0026.550 (0) Table wp88_commentmeta: Total expected rows (approximate): 0
+0026.556 (0) Table wp88_commentmeta: Total rows added: 0 in 0.01 seconds
+0026.561 (0) Table wp88_commentmeta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_commentmeta.table.gz - 0.4 KB)
+0026.567 (0) Table wp88_comments: Total expected rows (approximate): 3
+0026.577 (0) Table wp88_comments: Total rows added: 3 in 0.01 seconds
+0026.583 (0) Table wp88_comments: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_comments.table.gz - 0.8 KB)
+0026.589 (0) Table wp88_gamipress_logs: Total expected rows (approximate): 2250
+0026.623 (0) Table wp88_gamipress_logs: Total rows added: 2250 in 0.03 seconds
+0026.630 (0) Table wp88_gamipress_logs: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_logs.table.gz - 24.2 KB)
+0026.636 (0) Table wp88_gamipress_logs_meta: Total expected rows (approximate): 8780
+0026.713 (0) Table wp88_gamipress_logs_meta: Total rows added: 8780 in 0.08 seconds
+0026.720 (0) Table wp88_gamipress_logs_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_logs_meta.table.gz - 55.8 KB)
+0026.725 (0) Table wp88_gamipress_user_earnings: Total expected rows (approximate): 4
+0026.735 (0) Table wp88_gamipress_user_earnings: Total rows added: 4 in 0.01 seconds
+0026.741 (0) Table wp88_gamipress_user_earnings: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_user_earnings.table.gz - 0.5 KB)
+0026.747 (0) Table wp88_gamipress_user_earnings_meta: Total expected rows (approximate): 0
+0026.752 (0) Table wp88_gamipress_user_earnings_meta: Total rows added: 0 in 0.00 seconds
+0026.758 (0) Table wp88_gamipress_user_earnings_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_user_earnings_meta.table.gz - 0.4 KB)
+0026.763 (0) Table wp88_links: Total expected rows (approximate): 0
+0026.772 (0) Table wp88_links: Total rows added: 0 in 0.01 seconds
+0026.779 (0) Table wp88_links: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_links.table.gz - 0.4 KB)
+0026.784 (0) Table wp88_postmeta: Total expected rows (approximate): 1569
+0026.801 (0) Table wp88_postmeta: Total rows added: 1569 in 0.02 seconds
+0026.808 (0) Table wp88_postmeta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_postmeta.table.gz - 15.6 KB)
+0026.814 (0) Table wp88_posts: Total expected rows (approximate): 332
+0026.853 (0) Table wp88_posts: Total rows added: 332 in 0.04 seconds
+0026.860 (0) Table wp88_posts: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_posts.table.gz - 52.6 KB)
+0026.865 (0) Table wp88_signups: Total expected rows (approximate): 0
+0026.871 (0) Table wp88_signups: Total rows added: 0 in 0.01 seconds
+0026.877 (0) Table wp88_signups: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_signups.table.gz - 0.5 KB)
+0026.882 (0) Table wp88_term_relationships: Total expected rows (approximate): 45
+0026.892 (0) Table wp88_term_relationships: Total rows added: 45 in 0.01 seconds
+0026.899 (0) Table wp88_term_relationships: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_term_relationships.table.gz - 0.5 KB)
+0026.905 (0) Table wp88_term_taxonomy: Total expected rows (approximate): 24
+0026.914 (0) Table wp88_term_taxonomy: Total rows added: 24 in 0.01 seconds
+0026.920 (0) Table wp88_term_taxonomy: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_term_taxonomy.table.gz - 0.9 KB)
+0026.926 (0) Table wp88_termmeta: Total expected rows (approximate): 0
+0026.931 (0) Table wp88_termmeta: Total rows added: 0 in 0.00 seconds
+0026.937 (0) Table wp88_termmeta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_termmeta.table.gz - 0.4 KB)
+0026.942 (0) Table wp88_terms: Total expected rows (approximate): 24
+0026.949 (0) Table wp88_terms: Total rows added: 24 in 0.01 seconds
+0026.953 (0) Table wp88_terms: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_terms.table.gz - 0.7 KB)
+0026.960 (0) Table wp88_bp_activity: Total expected rows (approximate): 34
+0026.970 (0) Table wp88_bp_activity: Total rows added: 34 in 0.01 seconds
+0026.976 (0) Table wp88_bp_activity: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_activity.table.gz - 1.1 KB)
+0026.981 (0) Table wp88_bp_activity_meta: Total expected rows (approximate): 0
+0026.987 (0) Table wp88_bp_activity_meta: Total rows added: 0 in 0.01 seconds
+0026.992 (0) Table wp88_bp_activity_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_activity_meta.table.gz - 0.4 KB)
+0026.997 (0) Table wp88_bp_friends: Total expected rows (approximate): 1
+0027.003 (0) Table wp88_bp_friends: Total rows added: 1 in 0.01 seconds
+0027.009 (0) Table wp88_bp_friends: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_friends.table.gz - 0.4 KB)
+0027.014 (0) Table wp88_bp_groups: Total expected rows (approximate): 0
+0027.023 (0) Table wp88_bp_groups: Total rows added: 0 in 0.01 seconds
+0027.029 (0) Table wp88_bp_groups: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_groups.table.gz - 0.4 KB)
+0027.034 (0) Table wp88_bp_groups_groupmeta: Total expected rows (approximate): 0
+0027.040 (0) Table wp88_bp_groups_groupmeta: Total rows added: 0 in 0.01 seconds
+0027.045 (0) Table wp88_bp_groups_groupmeta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_groups_groupmeta.table.gz - 0.4 KB)
+0027.051 (0) Table wp88_bp_groups_members: Total expected rows (approximate): 0
+0027.060 (0) Table wp88_bp_groups_members: Total rows added: 0 in 0.01 seconds
+0027.065 (0) Table wp88_bp_groups_members: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_groups_members.table.gz - 0.5 KB)
+0027.071 (0) Table wp88_bp_messages_messages: Total expected rows (approximate): 0
+0027.077 (0) Table wp88_bp_messages_messages: Total rows added: 0 in 0.01 seconds
+0027.082 (0) Table wp88_bp_messages_messages: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_messages.table.gz - 0.4 KB)
+0027.087 (0) Table wp88_bp_messages_meta: Total expected rows (approximate): 0
+0027.093 (0) Table wp88_bp_messages_meta: Total rows added: 0 in 0.01 seconds
+0027.098 (0) Table wp88_bp_messages_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_meta.table.gz - 0.4 KB)
+0027.104 (0) Table wp88_bp_messages_notices: Total expected rows (approximate): 0
+0027.113 (0) Table wp88_bp_messages_notices: Total rows added: 0 in 0.01 seconds
+0027.119 (0) Table wp88_bp_messages_notices: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_notices.table.gz - 0.4 KB)
+0027.124 (0) Table wp88_bp_messages_recipients: Total expected rows (approximate): 0
+0027.131 (0) Table wp88_bp_messages_recipients: Total rows added: 0 in 0.01 seconds
+0027.136 (0) Table wp88_bp_messages_recipients: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_recipients.table.gz - 0.4 KB)
+0027.141 (0) Table wp88_bp_notifications: Total expected rows (approximate): 2
+0027.148 (0) Table wp88_bp_notifications: Total rows added: 2 in 0.01 seconds
+0027.153 (0) Table wp88_bp_notifications: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_notifications.table.gz - 0.5 KB)
+0027.159 (0) Table wp88_bp_notifications_meta: Total expected rows (approximate): 0
+0027.164 (0) Table wp88_bp_notifications_meta: Total rows added: 0 in 0.00 seconds
+0027.169 (0) Table wp88_bp_notifications_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_notifications_meta.table.gz - 0.4 KB)
+0027.174 (0) Table wp88_bp_xprofile_data: Total expected rows (approximate): 11
+0027.181 (0) Table wp88_bp_xprofile_data: Total rows added: 11 in 0.01 seconds
+0027.186 (0) Table wp88_bp_xprofile_data: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_data.table.gz - 0.9 KB)
+0027.192 (0) Table wp88_bp_xprofile_fields: Total expected rows (approximate): 3
+0027.198 (0) Table wp88_bp_xprofile_fields: Total rows added: 3 in 0.01 seconds
+0027.203 (0) Table wp88_bp_xprofile_fields: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_fields.table.gz - 0.6 KB)
+0027.209 (0) Table wp88_bp_xprofile_groups: Total expected rows (approximate): 1
+0027.214 (0) Table wp88_bp_xprofile_groups: Total rows added: 1 in 0.01 seconds
+0027.220 (0) Table wp88_bp_xprofile_groups: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_groups.table.gz - 0.4 KB)
+0027.225 (0) Table wp88_bp_xprofile_meta: Total expected rows (approximate): 7
+0027.231 (0) Table wp88_bp_xprofile_meta: Total rows added: 7 in 0.01 seconds
+0027.237 (0) Table wp88_bp_xprofile_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_meta.table.gz - 0.5 KB)
+0027.243 (0) Table wp88_duplicator_packages: Total expected rows (approximate): 0
+0027.249 (0) Table wp88_duplicator_packages: Total rows added: 0 in 0.01 seconds
+0027.254 (0) Table wp88_duplicator_packages: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_duplicator_packages.table.gz - 0.4 KB)
+0027.260 (0) Table wp88_loginizer_logs: Total expected rows (approximate): 0
+0027.267 (0) Table wp88_loginizer_logs: Total rows added: 0 in 0.01 seconds
+0027.272 (0) Table wp88_loginizer_logs: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_loginizer_logs.table.gz - 0.3 KB)
+0027.279 (0) Table wp88_mathsl_attempt: Total expected rows (approximate): 268
+0027.289 (0) Table wp88_mathsl_attempt: Total rows added: 268 in 0.01 seconds
+0027.295 (0) Table wp88_mathsl_attempt: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_attempt.table.gz - 2.9 KB)
+0027.300 (0) Table wp88_mathsl_problem_reports: Total expected rows (approximate): 7
+0027.314 (0) Table wp88_mathsl_problem_reports: Total rows added: 7 in 0.01 seconds
+0027.321 (0) Table wp88_mathsl_problem_reports: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_problem_reports.table.gz - 0.9 KB)
+0027.327 (0) Table wp88_mathsl_question: Total expected rows (approximate): 71
+0027.339 (0) Table wp88_mathsl_question: Total rows added: 71 in 0.01 seconds
+0027.345 (0) Table wp88_mathsl_question: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_question.table.gz - 1 KB)
+0027.351 (0) Table wp88_mathsl_question_child: Total expected rows (approximate): 490
+0027.396 (0) Table wp88_mathsl_question_child: Total rows added: 490 in 0.05 seconds
+0027.404 (0) Table wp88_mathsl_question_child: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_question_child.table.gz - 56.3 KB)
+0027.411 (0) Table wp88_mepr_events: Total expected rows (approximate): 324
+0027.423 (0) Table wp88_mepr_events: Total rows added: 324 in 0.01 seconds
+0027.429 (0) Table wp88_mepr_events: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_events.table.gz - 4.2 KB)
+0027.435 (0) Table wp88_mepr_jobs: Total expected rows (approximate): 0
+0027.444 (0) Table wp88_mepr_jobs: Total rows added: 0 in 0.01 seconds
+0027.450 (0) Table wp88_mepr_jobs: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_jobs.table.gz - 0.5 KB)
+0027.455 (0) Table wp88_mepr_members: Total expected rows (approximate): 34
+0027.466 (0) Table wp88_mepr_members: Total rows added: 34 in 0.01 seconds
+0027.471 (0) Table wp88_mepr_members: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_members.table.gz - 1.5 KB)
+0027.477 (0) Table wp88_mepr_rule_access_conditions: Total expected rows (approximate): 40
+0027.483 (0) Table wp88_mepr_rule_access_conditions: Total rows added: 40 in 0.01 seconds
+0027.489 (0) Table wp88_mepr_rule_access_conditions: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_rule_access_conditions.table.gz - 0.7 KB)
+0027.494 (0) Table wp88_mepr_subscription_meta: Total expected rows (approximate): 0
+0027.501 (0) Table wp88_mepr_subscription_meta: Total rows added: 0 in 0.01 seconds
+0027.505 (0) Table wp88_mepr_subscription_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_subscription_meta.table.gz - 0.4 KB)
+0027.511 (0) Table wp88_mepr_subscriptions: Total expected rows (approximate): 14
+0027.522 (0) Table wp88_mepr_subscriptions: Total rows added: 14 in 0.01 seconds
+0027.528 (0) Table wp88_mepr_subscriptions: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_subscriptions.table.gz - 1.3 KB)
+0027.533 (0) Table wp88_mepr_tax_rate_locations: Total expected rows (approximate): 0
+0027.540 (0) Table wp88_mepr_tax_rate_locations: Total rows added: 0 in 0.01 seconds
+0027.545 (0) Table wp88_mepr_tax_rate_locations: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_tax_rate_locations.table.gz - 0.4 KB)
+0027.551 (0) Table wp88_mepr_tax_rates: Total expected rows (approximate): 0
+0027.561 (0) Table wp88_mepr_tax_rates: Total rows added: 0 in 0.01 seconds
+0027.565 (0) Table wp88_mepr_tax_rates: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_tax_rates.table.gz - 0.5 KB)
+0027.571 (0) Table wp88_mepr_transaction_meta: Total expected rows (approximate): 0
+0027.578 (0) Table wp88_mepr_transaction_meta: Total rows added: 0 in 0.01 seconds
+0027.583 (0) Table wp88_mepr_transaction_meta: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_transaction_meta.table.gz - 0.4 KB)
+0027.588 (0) Table wp88_mepr_transactions: Total expected rows (approximate): 50
+0027.600 (0) Table wp88_mepr_transactions: Total rows added: 50 in 0.01 seconds
+0027.606 (0) Table wp88_mepr_transactions: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_transactions.table.gz - 2.2 KB)
+0027.611 (0) Table wp88_wpdatacharts: Total expected rows (approximate): 14
+0027.619 (0) Table wp88_wpdatacharts: Total rows added: 14 in 0.01 seconds
+0027.624 (0) Table wp88_wpdatacharts: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wpdatacharts.table.gz - 2 KB)
+0027.630 (0) Table wp88_wpdatatables: Total expected rows (approximate): 9
+0027.641 (0) Table wp88_wpdatatables: Total rows added: 9 in 0.01 seconds
+0027.648 (0) Table wp88_wpdatatables: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wpdatatables.table.gz - 1.1 KB)
+0027.653 (0) Table wp88_wpdatatables_columns: Total expected rows (approximate): 46
+0027.665 (0) Table wp88_wpdatatables_columns: Total rows added: 46 in 0.01 seconds
+0027.671 (0) Table wp88_wpdatatables_columns: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wpdatatables_columns.table.gz - 1.8 KB)
+0027.677 (0) Table wp88_wplc_chat_msgs: Total expected rows (approximate): 4
+0027.687 (0) Table wp88_wplc_chat_msgs: Total rows added: 4 in 0.01 seconds
+0027.692 (0) Table wp88_wplc_chat_msgs: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_chat_msgs.table.gz - 0.5 KB)
+0027.698 (0) Table wp88_wplc_chat_sessions: Total expected rows (approximate): 2
+0027.704 (0) Table wp88_wplc_chat_sessions: Total rows added: 2 in 0.01 seconds
+0027.709 (0) Table wp88_wplc_chat_sessions: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_chat_sessions.table.gz - 0.7 KB)
+0027.714 (0) Table wp88_wplc_offline_messages: Total expected rows (approximate): 0
+0027.724 (0) Table wp88_wplc_offline_messages: Total rows added: 1 in 0.01 seconds
+0027.730 (0) Table wp88_wplc_offline_messages: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_offline_messages.table.gz - 0.5 KB)
+0027.735 (0) Table wp88_wplc_webhooks: Total expected rows (approximate): 0
+0027.741 (0) Table wp88_wplc_webhooks: Total rows added: 0 in 0.01 seconds
+0027.747 (0) Table wp88_wplc_webhooks: finishing file (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_webhooks.table.gz - 0.3 KB)
+0027.749 (0) Skipping table (lacks our prefix (wp88_)): all_topics_view
+0027.750 (0) Skipping table (lacks our prefix (wp88_)): topic_1_view
+0027.750 (0) Skipping table (lacks our prefix (wp88_)): topic_2_view
+0027.751 (0) Skipping table (lacks our prefix (wp88_)): topic_3_view
+0027.751 (0) Skipping table (lacks our prefix (wp88_)): topic_4_view
+0027.752 (0) Skipping table (lacks our prefix (wp88_)): topic_5_view
+0027.752 (0) Skipping table (lacks our prefix (wp88_)): topic_6_view
+0027.755 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_options.table.gz (1/63): adding to final database dump
+0027.781 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_users.table.gz (2/63): adding to final database dump
+0027.782 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_usermeta.table.gz (3/63): adding to final database dump
+0027.786 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_commentmeta.table.gz (4/63): adding to final database dump
+0027.787 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_comments.table.gz (5/63): adding to final database dump
+0027.787 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_logs.table.gz (6/63): adding to final database dump
+0027.796 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_logs_meta.table.gz (7/63): adding to final database dump
+0027.818 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_user_earnings.table.gz (8/63): adding to final database dump
+0027.820 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_gamipress_user_earnings_meta.table.gz (9/63): adding to final database dump
+0027.821 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_links.table.gz (10/63): adding to final database dump
+0027.823 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_postmeta.table.gz (11/63): adding to final database dump
+0027.828 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_posts.table.gz (12/63): adding to final database dump
+0027.844 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_signups.table.gz (13/63): adding to final database dump
+0027.845 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_term_relationships.table.gz (14/63): adding to final database dump
+0027.845 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_term_taxonomy.table.gz (15/63): adding to final database dump
+0027.846 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_termmeta.table.gz (16/63): adding to final database dump
+0027.847 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_terms.table.gz (17/63): adding to final database dump
+0027.848 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_activity.table.gz (18/63): adding to final database dump
+0027.849 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_activity_meta.table.gz (19/63): adding to final database dump
+0027.849 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_friends.table.gz (20/63): adding to final database dump
+0027.850 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_groups.table.gz (21/63): adding to final database dump
+0027.851 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_groups_groupmeta.table.gz (22/63): adding to final database dump
+0027.852 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_groups_members.table.gz (23/63): adding to final database dump
+0027.852 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_messages.table.gz (24/63): adding to final database dump
+0027.853 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_meta.table.gz (25/63): adding to final database dump
+0027.854 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_notices.table.gz (26/63): adding to final database dump
+0027.854 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_messages_recipients.table.gz (27/63): adding to final database dump
+0027.855 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_notifications.table.gz (28/63): adding to final database dump
+0027.856 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_notifications_meta.table.gz (29/63): adding to final database dump
+0027.857 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_data.table.gz (30/63): adding to final database dump
+0027.858 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_fields.table.gz (31/63): adding to final database dump
+0027.859 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_groups.table.gz (32/63): adding to final database dump
+0027.860 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_bp_xprofile_meta.table.gz (33/63): adding to final database dump
+0027.861 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_duplicator_packages.table.gz (34/63): adding to final database dump
+0027.861 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_loginizer_logs.table.gz (35/63): adding to final database dump
+0027.862 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_attempt.table.gz (36/63): adding to final database dump
+0027.863 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_problem_reports.table.gz (37/63): adding to final database dump
+0027.864 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_question.table.gz (38/63): adding to final database dump
+0027.865 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mathsl_question_child.table.gz (39/63): adding to final database dump
+0027.884 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_events.table.gz (40/63): adding to final database dump
+0027.886 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_jobs.table.gz (41/63): adding to final database dump
+0027.887 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_members.table.gz (42/63): adding to final database dump
+0027.888 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_rule_access_conditions.table.gz (43/63): adding to final database dump
+0027.889 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_subscription_meta.table.gz (44/63): adding to final database dump
+0027.889 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_subscriptions.table.gz (45/63): adding to final database dump
+0027.891 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_tax_rate_locations.table.gz (46/63): adding to final database dump
+0027.891 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_tax_rates.table.gz (47/63): adding to final database dump
+0027.892 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_transaction_meta.table.gz (48/63): adding to final database dump
+0027.893 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_mepr_transactions.table.gz (49/63): adding to final database dump
+0027.895 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wpdatacharts.table.gz (50/63): adding to final database dump
+0027.897 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wpdatatables.table.gz (51/63): adding to final database dump
+0027.898 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wpdatatables_columns.table.gz (52/63): adding to final database dump
+0027.900 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_chat_msgs.table.gz (53/63): adding to final database dump
+0027.901 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_chat_sessions.table.gz (54/63): adding to final database dump
+0027.902 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_offline_messages.table.gz (55/63): adding to final database dump
+0027.903 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db-table-wp88_wplc_webhooks.table.gz (56/63): adding to final database dump
+0027.910 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: finished writing out complete database file (336 KB)
+0027.931 (0) Total database tables backed up: 56 (backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz, size: 357442, sha256)
+0027.937 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0027.937 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0027.938 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0027.939 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+0027.939 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+0027.940 (0) Saving backup history. Total backup size: 46.9 MB
+0027.942 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0027.944 (0) Cloud backup selection (1/1): email with instance (1/1) (last)
+0027.945 (0) Beginning dispatch of backup to remote (email)
+0027.947 (0) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0027.947 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+0029.115 (0) Mails were not sent successfully
+0029.117 (0) An error condition has occurred for the first time during this job
+0029.118 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+0030.175 (0) Mails were not sent successfully
+0030.176 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+0031.215 (0) Mails were not sent successfully
+0031.216 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+0032.235 (0) Mails were not sent successfully
+0032.236 (0) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+0033.275 (0) Mails were not sent successfully
+0033.277 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0033.278 (0) Number of backup sets in history: 5; groups (db): 1
+0033.279 (0) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0033.279 (0) This backup set is the backup set just made, so will not be deleted.
+0033.279 (0) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0033.279 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.280 (0) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0033.280 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.280 (0) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0033.280 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.280 (0) Examining (for databases) backup set with group_id=0, nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+0033.280 (0) 1544073628: db: this set includes a database (backup_2018-12-06-0520_IB_MasterMind_08a90650bdd2-db.gz); db count is now 4
+0033.280 (0) 1544073628: db: over retain limit (4); will delete this database
+0033.280 (0) Delete file: backup_2018-12-06-0520_IB_MasterMind_08a90650bdd2-db.gz, service=email
+0033.282 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0033.283 (0) Number of backup sets in history: 5; groups (files): 1
+0033.283 (0) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0033.283 (0) This backup set is the backup set just made, so will not be deleted.
+0033.284 (0) This backup set is the backup set just made, so will not be deleted.
+0033.284 (0) This backup set is the backup set just made, so will not be deleted.
+0033.284 (0) This backup set is the backup set just made, so will not be deleted.
+0033.284 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.285 (0) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0033.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.285 (0) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0033.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.285 (0) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0033.285 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.285 (0) Examining (for files) backup set with nonce=08a90650bdd2, datestamp=1544073628 (Dec 06 2018 05:20:28)
+0033.285 (0) plugins: over retain limit (4); will delete this file entity
+0033.285 (0) themes: over retain limit (4); will delete this file entity
+0033.285 (0) uploads: over retain limit (4); will delete this file entity
+0033.285 (0) others: over retain limit (4); will delete this file entity
+0033.285 (0) Delete file: backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-plugins.zip, service=email
+0033.286 (0) Deleting local copy (backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-plugins.zip)
+0033.287 (0) Delete file: backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-themes.zip, service=email
+0033.288 (0) Deleting local copy (backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-themes.zip)
+0033.289 (0) Delete file: backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-uploads.zip, service=email
+0033.291 (0) Deleting local copy (backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-uploads.zip)
+0033.292 (0) Delete file: backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-others.zip, service=email
+0033.293 (0) Deleting local copy (backup_2018-12-06-0520_IB_MasterMind_322bbbe3d604-others.zip)
+0033.294 (0) This backup set is now empty; will remove from history
+0033.296 (0) Deleting log file (log.08a90650bdd2.txt)
+0033.297 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0033.300 (0) Resume backup (583956e22676, 0): finish run
+0033.302 (0) Decremented the semaphore (fd) by 1
+0033.302 (0) Semaphore (fd) unlocked
+0033.303 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0033.305 (0) Rescheduling resumption 1: moving to 100 seconds from now (1546470805)
+0033.307 (0) No email will/can be sent - the user has not configured an email address.
+0033.307 (0) The backup has not finished; a resumption is scheduled
+0231.271 (1) Opened log file at time: Wed, 02 Jan 2019 23:15:02 +0000 on https://localhost/oldone
+0231.272 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 28M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0231.273 (1) Free space on disk containing Updraft's temporary directory: 19544.7 MB
+0231.274 (1) Backup run: resumption=1, nonce=583956e22676, begun at=1546470671 (231s ago), job type=backup, previous check-in=33.3s
+0231.276 (1) Scheduling a resumption (2) after 300 seconds (1546471202) in case this run gets aborted
+0231.284 (1) Checking if we have a zip executable available
+0231.284 (1) Creation of backups of directories: already finished
+0231.286 (1) Saving backup status to database (elements: 8)
+0231.289 (1) Database dump (WordPress DB): Creation was completed already
+0231.293 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0231.293 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0231.294 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0231.295 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+0231.295 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+0231.296 (1) Saving backup history. Total backup size: 46.9 MB
+0231.298 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0231.300 (1) Cloud backup selection (1/1): email with instance (1/1) (last)
+0231.301 (1) Beginning dispatch of backup to remote (email)
+0231.302 (1) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0231.303 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+0232.495 (1) Mails were not sent successfully
+0232.496 (1) An error condition has occurred for the first time during this job
+0232.497 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+0233.565 (1) Mails were not sent successfully
+0233.566 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+0234.605 (1) Mails were not sent successfully
+0234.606 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+0235.635 (1) Mails were not sent successfully
+0235.636 (1) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+0236.655 (1) Mails were not sent successfully
+0236.657 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0236.658 (1) Number of backup sets in history: 4; groups (db): 1
+0236.659 (1) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0236.659 (1) This backup set is the backup set just made, so will not be deleted.
+0236.659 (1) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0236.659 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.660 (1) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0236.660 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.660 (1) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0236.660 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.660 (1) Number of backup sets in history: 4; groups (files): 1
+0236.661 (1) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0236.661 (1) This backup set is the backup set just made, so will not be deleted.
+0236.661 (1) This backup set is the backup set just made, so will not be deleted.
+0236.662 (1) This backup set is the backup set just made, so will not be deleted.
+0236.662 (1) This backup set is the backup set just made, so will not be deleted.
+0236.662 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.662 (1) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0236.662 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.662 (1) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0236.662 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.663 (1) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0236.663 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0236.663 (1) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0236.665 (1) Resume backup (583956e22676, 1): finish run
+0236.666 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0236.667 (1) No email will/can be sent - the user has not configured an email address.
+0236.668 (1) The backup has not finished; a resumption is scheduled
+0591.655 (2) Opened log file at time: Wed, 02 Jan 2019 23:21:03 +0000 on https://localhost/oldone
+0591.656 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0591.657 (2) Free space on disk containing Updraft's temporary directory: 19517.9 MB
+0591.658 (2) Backup run: resumption=2, nonce=583956e22676, begun at=1546470671 (592s ago), job type=backup
+0591.659 (2) Scheduling a resumption (3) after 300 seconds (1546471563) in case this run gets aborted
+0591.668 (2) Checking if we have a zip executable available
+0591.668 (2) Creation of backups of directories: already finished
+0591.670 (2) Saving backup status to database (elements: 8)
+0591.673 (2) Database dump (WordPress DB): Creation was completed already
+0591.677 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0591.678 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0591.678 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0591.679 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+0591.679 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+0591.680 (2) Saving backup history. Total backup size: 46.9 MB
+0591.682 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0591.683 (2) Cloud backup selection (1/1): email with instance (1/1) (last)
+0591.683 (2) Beginning dispatch of backup to remote (email)
+0591.684 (2) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0591.684 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+0592.866 (2) Mails were not sent successfully
+0592.867 (2) An error condition has occurred for the first time during this job
+0592.868 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+0593.906 (2) Mails were not sent successfully
+0593.907 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+0594.925 (2) Mails were not sent successfully
+0594.927 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+0595.946 (2) Mails were not sent successfully
+0595.947 (2) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+0596.986 (2) Mails were not sent successfully
+0596.988 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0596.989 (2) Number of backup sets in history: 4; groups (db): 1
+0596.989 (2) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0596.990 (2) This backup set is the backup set just made, so will not be deleted.
+0596.990 (2) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0596.990 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.990 (2) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0596.990 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.991 (2) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0596.991 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.991 (2) Number of backup sets in history: 4; groups (files): 1
+0596.991 (2) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0596.991 (2) This backup set is the backup set just made, so will not be deleted.
+0596.992 (2) This backup set is the backup set just made, so will not be deleted.
+0596.992 (2) This backup set is the backup set just made, so will not be deleted.
+0596.992 (2) This backup set is the backup set just made, so will not be deleted.
+0596.992 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.993 (2) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0596.993 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.993 (2) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0596.993 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.993 (2) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0596.993 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0596.993 (2) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0596.995 (2) Resume backup (583956e22676, 2): finish run
+0596.996 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0596.998 (2) No email will/can be sent - the user has not configured an email address.
+0596.998 (2) The backup has not finished; a resumption is scheduled
+0952.709 (3) Opened log file at time: Wed, 02 Jan 2019 23:27:04 +0000 on https://localhost/oldone
+0952.710 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+0952.711 (3) Free space on disk containing Updraft's temporary directory: 18539.7 MB
+0952.712 (3) Backup run: resumption=3, nonce=583956e22676, begun at=1546470671 (953s ago), job type=backup
+0952.713 (3) Scheduling a resumption (4) after 300 seconds (1546471924) in case this run gets aborted
+0952.725 (3) Checking if we have a zip executable available
+0952.725 (3) Creation of backups of directories: already finished
+0952.727 (3) Saving backup status to database (elements: 8)
+0952.732 (3) Database dump (WordPress DB): Creation was completed already
+0952.738 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0952.740 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0952.740 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0952.741 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+0952.741 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+0952.742 (3) Saving backup history. Total backup size: 46.9 MB
+0952.745 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0952.748 (3) Cloud backup selection (1/1): email with instance (1/1) (last)
+0952.749 (3) Beginning dispatch of backup to remote (email)
+0952.750 (3) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+0952.751 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+0953.986 (3) Mails were not sent successfully
+0953.987 (3) An error condition has occurred for the first time during this job
+0953.989 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+0955.116 (3) Mails were not sent successfully
+0955.118 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+0956.156 (3) Mails were not sent successfully
+0956.158 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+0957.168 (3) Mails were not sent successfully
+0957.169 (3) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+0958.206 (3) Mails were not sent successfully
+0958.208 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0958.209 (3) Number of backup sets in history: 4; groups (db): 1
+0958.210 (3) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0958.210 (3) This backup set is the backup set just made, so will not be deleted.
+0958.210 (3) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0958.210 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.211 (3) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0958.211 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.211 (3) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0958.211 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.211 (3) Number of backup sets in history: 4; groups (files): 1
+0958.211 (3) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+0958.211 (3) This backup set is the backup set just made, so will not be deleted.
+0958.212 (3) This backup set is the backup set just made, so will not be deleted.
+0958.212 (3) This backup set is the backup set just made, so will not be deleted.
+0958.212 (3) This backup set is the backup set just made, so will not be deleted.
+0958.213 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.214 (3) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+0958.214 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.214 (3) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+0958.214 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.214 (3) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+0958.214 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0958.214 (3) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0958.216 (3) Resume backup (583956e22676, 3): finish run
+0958.217 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0958.219 (3) No email will/can be sent - the user has not configured an email address.
+0958.219 (3) The backup has not finished; a resumption is scheduled
+1312.733 (4) Opened log file at time: Wed, 02 Jan 2019 23:33:04 +0000 on https://localhost/oldone
+1312.734 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1312.734 (4) Free space on disk containing Updraft's temporary directory: 18545.8 MB
+1312.736 (4) Backup run: resumption=4, nonce=583956e22676, begun at=1546470671 (1313s ago), job type=backup
+1312.737 (4) Scheduling a resumption (5) after 300 seconds (1546472284) in case this run gets aborted
+1312.745 (4) Checking if we have a zip executable available
+1312.746 (4) Creation of backups of directories: already finished
+1312.747 (4) Saving backup status to database (elements: 8)
+1312.751 (4) Database dump (WordPress DB): Creation was completed already
+1312.754 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1312.755 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1312.756 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1312.756 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+1312.757 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+1312.758 (4) Saving backup history. Total backup size: 46.9 MB
+1312.760 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1312.761 (4) Cloud backup selection (1/1): email with instance (1/1) (last)
+1312.761 (4) Beginning dispatch of backup to remote (email)
+1312.762 (4) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1312.762 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+1313.936 (4) Mails were not sent successfully
+1313.937 (4) An error condition has occurred for the first time during this job
+1313.938 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+1314.976 (4) Mails were not sent successfully
+1314.977 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+1316.016 (4) Mails were not sent successfully
+1316.017 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+1317.056 (4) Mails were not sent successfully
+1317.057 (4) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+1318.096 (4) Mails were not sent successfully
+1318.098 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1318.099 (4) Number of backup sets in history: 4; groups (db): 1
+1318.100 (4) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+1318.100 (4) This backup set is the backup set just made, so will not be deleted.
+1318.100 (4) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1318.100 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.101 (4) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1318.101 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.101 (4) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1318.101 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.101 (4) Number of backup sets in history: 4; groups (files): 1
+1318.102 (4) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+1318.102 (4) This backup set is the backup set just made, so will not be deleted.
+1318.102 (4) This backup set is the backup set just made, so will not be deleted.
+1318.102 (4) This backup set is the backup set just made, so will not be deleted.
+1318.102 (4) This backup set is the backup set just made, so will not be deleted.
+1318.102 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.103 (4) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1318.103 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.103 (4) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1318.103 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.103 (4) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1318.103 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1318.103 (4) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1318.105 (4) Resume backup (583956e22676, 4): finish run
+1318.106 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1318.107 (4) No email will/can be sent - the user has not configured an email address.
+1318.108 (4) The backup has not finished; a resumption is scheduled
+1673.249 (5) Opened log file at time: Wed, 02 Jan 2019 23:39:04 +0000 on https://localhost/oldone
+1673.250 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+1673.251 (5) Free space on disk containing Updraft's temporary directory: 18552.6 MB
+1673.252 (5) Backup run: resumption=5, nonce=583956e22676, begun at=1546470671 (1673s ago), job type=backup
+1673.254 (5) Scheduling a resumption (6) after 300 seconds (1546472644) in case this run gets aborted
+1673.263 (5) Checking if we have a zip executable available
+1673.264 (5) Creation of backups of directories: already finished
+1673.265 (5) Saving backup status to database (elements: 8)
+1673.270 (5) Database dump (WordPress DB): Creation was completed already
+1673.274 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1673.274 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1673.275 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1673.275 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+1673.276 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+1673.276 (5) Saving backup history. Total backup size: 46.9 MB
+1673.278 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1673.280 (5) Cloud backup selection (1/1): email with instance (1/1) (last)
+1673.280 (5) Beginning dispatch of backup to remote (email)
+1673.281 (5) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+1673.281 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+1674.437 (5) Mails were not sent successfully
+1674.438 (5) An error condition has occurred for the first time during this job
+1674.438 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+1675.487 (5) Mails were not sent successfully
+1675.488 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+1676.506 (5) Mails were not sent successfully
+1676.508 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+1677.546 (5) Mails were not sent successfully
+1677.547 (5) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+1678.586 (5) Mails were not sent successfully
+1678.588 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+1678.589 (5) Number of backup sets in history: 4; groups (db): 1
+1678.590 (5) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+1678.590 (5) This backup set is the backup set just made, so will not be deleted.
+1678.590 (5) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1678.590 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.591 (5) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1678.591 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.591 (5) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1678.591 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.591 (5) Number of backup sets in history: 4; groups (files): 1
+1678.591 (5) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+1678.591 (5) This backup set is the backup set just made, so will not be deleted.
+1678.592 (5) This backup set is the backup set just made, so will not be deleted.
+1678.592 (5) This backup set is the backup set just made, so will not be deleted.
+1678.592 (5) This backup set is the backup set just made, so will not be deleted.
+1678.592 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.592 (5) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+1678.592 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.593 (5) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+1678.593 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.593 (5) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+1678.593 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1678.593 (5) Retain: saving new backup history (sets now: 4) and finishing retain operation
+1678.594 (5) Resume backup (583956e22676, 5): finish run
+1678.595 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1678.597 (5) No email will/can be sent - the user has not configured an email address.
+1678.597 (5) The backup has not finished; a resumption is scheduled
+2033.856 (6) Opened log file at time: Wed, 02 Jan 2019 23:45:05 +0000 on https://localhost/oldone
+2033.857 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+2033.857 (6) Free space on disk containing Updraft's temporary directory: 18552.5 MB
+2033.859 (6) Backup run: resumption=6, nonce=583956e22676, begun at=1546470671 (2034s ago), job type=backup
+2033.860 (6) Scheduling a resumption (7) after 300 seconds (1546473005) in case this run gets aborted
+2033.868 (6) Checking if we have a zip executable available
+2033.869 (6) Creation of backups of directories: already finished
+2033.870 (6) Saving backup status to database (elements: 8)
+2033.874 (6) Database dump (WordPress DB): Creation was completed already
+2033.878 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2033.879 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2033.880 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2033.880 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+2033.881 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+2033.881 (6) Saving backup history. Total backup size: 46.9 MB
+2033.883 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2033.884 (6) Cloud backup selection (1/1): email with instance (1/1) (last)
+2033.885 (6) Beginning dispatch of backup to remote (email)
+2033.885 (6) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2033.886 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+2035.066 (6) Mails were not sent successfully
+2035.067 (6) An error condition has occurred for the first time during this job
+2035.067 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+2036.107 (6) Mails were not sent successfully
+2036.108 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+2037.147 (6) Mails were not sent successfully
+2037.148 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+2038.187 (6) Mails were not sent successfully
+2038.188 (6) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+2039.217 (6) Mails were not sent successfully
+2039.219 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2039.220 (6) Number of backup sets in history: 4; groups (db): 1
+2039.220 (6) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+2039.221 (6) This backup set is the backup set just made, so will not be deleted.
+2039.221 (6) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2039.221 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.222 (6) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2039.222 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.222 (6) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2039.222 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.222 (6) Number of backup sets in history: 4; groups (files): 1
+2039.222 (6) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+2039.223 (6) This backup set is the backup set just made, so will not be deleted.
+2039.223 (6) This backup set is the backup set just made, so will not be deleted.
+2039.223 (6) This backup set is the backup set just made, so will not be deleted.
+2039.223 (6) This backup set is the backup set just made, so will not be deleted.
+2039.223 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.224 (6) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2039.224 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.224 (6) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2039.224 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.224 (6) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2039.224 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2039.224 (6) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2039.226 (6) Resume backup (583956e22676, 6): finish run
+2039.228 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2039.229 (6) No email will/can be sent - the user has not configured an email address.
+2039.230 (6) The backup has not finished; a resumption is scheduled
+2394.129 (7) Opened log file at time: Wed, 02 Jan 2019 23:51:05 +0000 on https://localhost/oldone
+2394.130 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+2394.130 (7) Free space on disk containing Updraft's temporary directory: 18552 MB
+2394.132 (7) Backup run: resumption=7, nonce=583956e22676, begun at=1546470671 (2394s ago), job type=backup
+2394.133 (7) Scheduling a resumption (8) after 300 seconds (1546473365) in case this run gets aborted
+2394.141 (7) Checking if we have a zip executable available
+2394.142 (7) Creation of backups of directories: already finished
+2394.143 (7) Saving backup status to database (elements: 8)
+2394.146 (7) Database dump (WordPress DB): Creation was completed already
+2394.150 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2394.151 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2394.151 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2394.152 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+2394.152 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+2394.153 (7) Saving backup history. Total backup size: 46.9 MB
+2394.154 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2394.156 (7) Cloud backup selection (1/1): email with instance (1/1) (last)
+2394.156 (7) Beginning dispatch of backup to remote (email)
+2394.157 (7) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2394.158 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+2395.307 (7) Mails were not sent successfully
+2395.308 (7) An error condition has occurred for the first time during this job
+2395.309 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+2396.367 (7) Mails were not sent successfully
+2396.368 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+2397.407 (7) Mails were not sent successfully
+2397.408 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+2398.437 (7) Mails were not sent successfully
+2398.438 (7) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+2399.477 (7) Mails were not sent successfully
+2399.479 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2399.480 (7) Number of backup sets in history: 4; groups (db): 1
+2399.481 (7) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+2399.481 (7) This backup set is the backup set just made, so will not be deleted.
+2399.481 (7) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2399.482 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.482 (7) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2399.482 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.482 (7) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2399.482 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.482 (7) Number of backup sets in history: 4; groups (files): 1
+2399.483 (7) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+2399.483 (7) This backup set is the backup set just made, so will not be deleted.
+2399.483 (7) This backup set is the backup set just made, so will not be deleted.
+2399.484 (7) This backup set is the backup set just made, so will not be deleted.
+2399.484 (7) This backup set is the backup set just made, so will not be deleted.
+2399.484 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.484 (7) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2399.484 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.484 (7) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2399.484 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.485 (7) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2399.485 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2399.485 (7) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2399.487 (7) Resume backup (583956e22676, 7): finish run
+2399.488 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2399.490 (7) No email will/can be sent - the user has not configured an email address.
+2399.490 (7) The backup has not finished; a resumption is scheduled
+2755.595 (8) Opened log file at time: Wed, 02 Jan 2019 23:57:07 +0000 on https://localhost/oldone
+2755.596 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+2755.597 (8) Free space on disk containing Updraft's temporary directory: 18583.5 MB
+2755.599 (8) Backup run: resumption=8, nonce=583956e22676, begun at=1546470671 (2756s ago), job type=backup
+2755.600 (8) Scheduling a resumption (9) after 300 seconds (1546473727) in case this run gets aborted
+2755.610 (8) Checking if we have a zip executable available
+2755.611 (8) Creation of backups of directories: already finished
+2755.612 (8) Saving backup status to database (elements: 8)
+2755.615 (8) Database dump (WordPress DB): Creation was completed already
+2755.628 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2755.631 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2755.632 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2755.636 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+2755.637 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+2755.641 (8) Saving backup history. Total backup size: 46.9 MB
+2755.645 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+2755.650 (8) Cloud backup selection (1/1): email with instance (1/1) (last)
+2755.651 (8) Beginning dispatch of backup to remote (email)
+2755.655 (8) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+2755.659 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+2756.889 (8) Mails were not sent successfully
+2756.892 (8) An error condition has occurred for the first time during this job
+2756.895 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+2757.973 (8) Mails were not sent successfully
+2757.979 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+2759.030 (8) Mails were not sent successfully
+2759.031 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+2760.033 (8) Mails were not sent successfully
+2760.034 (8) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+2761.038 (8) Mails were not sent successfully
+2761.040 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+2761.041 (8) Number of backup sets in history: 4; groups (db): 1
+2761.042 (8) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+2761.042 (8) This backup set is the backup set just made, so will not be deleted.
+2761.042 (8) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2761.042 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.043 (8) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2761.043 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.043 (8) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2761.043 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.043 (8) Number of backup sets in history: 4; groups (files): 1
+2761.043 (8) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+2761.043 (8) This backup set is the backup set just made, so will not be deleted.
+2761.044 (8) This backup set is the backup set just made, so will not be deleted.
+2761.044 (8) This backup set is the backup set just made, so will not be deleted.
+2761.044 (8) This backup set is the backup set just made, so will not be deleted.
+2761.044 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.044 (8) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+2761.044 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.045 (8) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+2761.045 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.045 (8) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+2761.045 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2761.045 (8) Retain: saving new backup history (sets now: 4) and finishing retain operation
+2761.047 (8) Resume backup (583956e22676, 8): finish run
+2761.048 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2761.049 (8) No email will/can be sent - the user has not configured an email address.
+2761.050 (8) The backup has not finished; a resumption is scheduled
+3115.679 (9) Opened log file at time: Thu, 03 Jan 2019 00:03:07 +0000 on https://localhost/oldone
+3115.680 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.15.3 WP: 4.9.9 PHP: 7.2.6 (apache2handler, Windows NT SAM-PC 10.0 build 17134 (Windows 10) i586) MySQL: 10.1.33-MariaDB WPLANG: en_US Server: Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 52.3M | 6M) multisite: N openssl: OpenSSL 1.1.0h  27 Mar 2018 mcrypt: N LANG:  ZipArchive::addFile: Y
+3115.681 (9) Free space on disk containing Updraft's temporary directory: 18591.7 MB
+3115.684 (9) Backup run: resumption=9, nonce=583956e22676, begun at=1546470671 (3116s ago), job type=backup
+3115.686 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+3115.694 (9) Creation of backups of directories: already finished
+3115.696 (9) Saving backup status to database (elements: 8)
+3115.701 (9) Database dump (WordPress DB): Creation was completed already
+3115.706 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3115.706 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3115.707 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3115.707 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: others: This file has not yet been successfully uploaded: will queue
+3115.708 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: db: This file has not yet been successfully uploaded: will queue
+3115.708 (9) Saving backup history. Total backup size: 46.9 MB
+3115.711 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+3115.712 (9) Cloud backup selection (1/1): email with instance (1/1) (last)
+3115.713 (9) Beginning dispatch of backup to remote (email)
+3115.714 (9) [Warning] backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: This backup archive is 35.9 MB in size - the attempt to send this via email is likely to fail (few email servers allow attachments of this size). If so, you should switch to using a different remote storage method.
+3115.714 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-plugins.zip: email to: hamis...
+3116.873 (9) Mails were not sent successfully
+3116.873 (9) An error condition has occurred for the first time during this job
+3116.874 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-themes.zip: email to: hamis...
+3117.927 (9) Mails were not sent successfully
+3117.928 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-uploads.zip: email to: hamis...
+3118.944 (9) Mails were not sent successfully
+3118.945 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-others.zip: email to: hamis...
+3119.948 (9) Mails were not sent successfully
+3119.949 (9) backup_2019-01-02-2311_IB_MasterMind_583956e22676-db.gz: email to: hamis...
+3120.954 (9) Mails were not sent successfully
+3120.955 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+3120.956 (9) Number of backup sets in history: 4; groups (db): 1
+3120.957 (9) Examining (for databases) backup set with group_id=0, nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+3120.958 (9) This backup set is the backup set just made, so will not be deleted.
+3120.958 (9) Examining (for databases) backup set with group_id=0, nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+3120.958 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.959 (9) Examining (for databases) backup set with group_id=0, nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+3120.959 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.959 (9) Examining (for databases) backup set with group_id=0, nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+3120.959 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.959 (9) Number of backup sets in history: 4; groups (files): 1
+3120.960 (9) Examining (for files) backup set with nonce=583956e22676, datestamp=1546470671 (Jan 02 2019 23:11:11)
+3120.960 (9) This backup set is the backup set just made, so will not be deleted.
+3120.961 (9) This backup set is the backup set just made, so will not be deleted.
+3120.961 (9) This backup set is the backup set just made, so will not be deleted.
+3120.961 (9) This backup set is the backup set just made, so will not be deleted.
+3120.961 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.961 (9) Examining (for files) backup set with nonce=fbbfe6545fc6, datestamp=1545872714 (Dec 27 2018 01:05:14)
+3120.961 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.961 (9) Examining (for files) backup set with nonce=32222e149776, datestamp=1545257461 (Dec 19 2018 22:11:01)
+3120.961 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.962 (9) Examining (for files) backup set with nonce=02e76986fad9, datestamp=1545015774 (Dec 17 2018 03:02:54)
+3120.962 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+3120.962 (9) Retain: saving new backup history (sets now: 4) and finishing retain operation
+3120.965 (9) Resume backup (583956e22676, 9): finish run
+3120.966 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3120.968 (9) No email will/can be sent - the user has not configured an email address.
+3120.968 (9) The backup attempt has finished, apparently unsuccessfully

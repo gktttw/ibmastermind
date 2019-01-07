@@ -1,0 +1,290 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.52
+* STEP-1 START @ 12:02:24
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.2.6 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.33 (Win32) OpenSSL/1.1.0h PHP/7.2.6
+DOC ROOT:	C:/xampp/htdocs/oldone
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/oldone/installer0.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20181116_ibmastermind_edf124074e9c1f847383_20181117033251_archive.zip
+SIZE:	60.21MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 11953
+    [filename] => C:\xampp\htdocs\oldone\20181116_ibmastermind_edf124074e9c1f847383_20181117033251_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-11-20 00:05:29
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.181120000529.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 12:05:29 - RUNTIME: 184.7161 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 12:05:55
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.33 -- Build Server: 10.2.12
+FILE SIZE:	dup-database__edf1240-17033251.sql (4.39MB) - dup-installer-data__edf1240-17033251.sql (4.39MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/oldone/dup-installer-data__edf1240-17033251.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+**ERROR** database error write 'Table 'all_topics_view' already exists' - [sql=/*!50001 CREATE TABLE `All_Topics_View` (
+  `attempt_id` tinyint NOT NULL,
+...]
+**ERROR** database error write 'Table 'topic_1_view' already exists' - [sql=/*!50001 CREATE TABLE `Topic_1_View` (
+  `user_id` tinyint NOT NULL,
+  `que...]
+**ERROR** database error write 'Table 'topic_2_view' already exists' - [sql=/*!50001 CREATE TABLE `Topic_2_View` (
+  `user_id` tinyint NOT NULL,
+  `que...]
+**ERROR** database error write 'Table 'topic_3_view' already exists' - [sql=/*!50001 CREATE TABLE `Topic_3_View` (
+  `user_id` tinyint NOT NULL,
+  `que...]
+**ERROR** database error write 'Table 'topic_4_view' already exists' - [sql=/*!50001 CREATE TABLE `Topic_4_View` (
+  `user_id` tinyint NOT NULL,
+  `que...]
+**ERROR** database error write 'Table 'topic_5_view' already exists' - [sql=/*!50001 CREATE TABLE `Topic_5_View` (
+  `user_id` tinyint NOT NULL,
+  `que...]
+**ERROR** database error write 'Table 'topic_6_view' already exists' - [sql=/*!50001 CREATE TABLE `Topic_6_View` (
+  `user_id` tinyint NOT NULL,
+  `que...]
+**ERROR** database error write 'Table 'All_Topics_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+**ERROR** database error write 'Table 'Topic_1_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+**ERROR** database error write 'Table 'Topic_2_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+**ERROR** database error write 'Table 'Topic_3_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+**ERROR** database error write 'Table 'Topic_4_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+**ERROR** database error write 'Table 'Topic_5_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+**ERROR** database error write 'Table 'Topic_6_View' already exists' - [sql=/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` ...]
+ERRORS FOUND:	14
+TABLES DROPPED:	52
+QUERIES RAN:	560
+
+all_topics_view: (268)
+topic_1_view: (52)
+topic_2_view: (52)
+topic_3_view: (36)
+topic_4_view: (39)
+topic_5_view: (57)
+topic_6_view: (32)
+wp88_bp_activity: (32)
+wp88_bp_activity_meta: (0)
+wp88_bp_friends: (1)
+wp88_bp_groups: (0)
+wp88_bp_groups_groupmeta: (0)
+wp88_bp_groups_members: (0)
+wp88_bp_messages_messages: (0)
+wp88_bp_messages_meta: (0)
+wp88_bp_messages_notices: (0)
+wp88_bp_messages_recipients: (0)
+wp88_bp_notifications: (2)
+wp88_bp_notifications_meta: (0)
+wp88_bp_xprofile_data: (11)
+wp88_bp_xprofile_fields: (3)
+wp88_bp_xprofile_groups: (1)
+wp88_bp_xprofile_meta: (7)
+wp88_commentmeta: (0)
+wp88_comments: (1)
+wp88_duplicator_packages: (2)
+wp88_gamipress_logs: (1924)
+wp88_gamipress_logs_meta: (7520)
+wp88_gamipress_user_earnings: (1)
+wp88_gamipress_user_earnings_meta: (0)
+wp88_links: (0)
+wp88_loginizer_logs: (0)
+wp88_mathsl_attempt: (268)
+wp88_mathsl_problem_reports: (7)
+wp88_mathsl_question: (21)
+wp88_mathsl_question_child: (440)
+wp88_mepr_events: (288)
+wp88_mepr_jobs: (0)
+wp88_mepr_members: (32)
+wp88_mepr_rule_access_conditions: (40)
+wp88_mepr_subscription_meta: (0)
+wp88_mepr_subscriptions: (12)
+wp88_mepr_tax_rate_locations: (0)
+wp88_mepr_tax_rates: (0)
+wp88_mepr_transaction_meta: (0)
+wp88_mepr_transactions: (48)
+wp88_options: (454)
+wp88_postmeta: (1431)
+wp88_posts: (261)
+wp88_signups: (0)
+wp88_term_relationships: (41)
+wp88_term_taxonomy: (23)
+wp88_termmeta: (0)
+wp88_terms: (23)
+wp88_usermeta: (708)
+wp88_users: (32)
+wp88_wpdatacharts: (14)
+wp88_wpdatatables: (9)
+wp88_wpdatatables_columns: (46)
+
+Removed '74' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 1.6860 sec.
+STEP-2 COMPLETE @ 12:05:57 - RUNTIME: 2.0412 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 12:06:00
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+all_topics_view~ (268)
+topic_1_view~ (52)
+topic_2_view~ (52)
+topic_3_view~ (36)
+topic_4_view~ (39)
+topic_5_view~ (57)
+topic_6_view~ (32)
+wp88_bp_activity~ (32)
+wp88_bp_activity_meta^ (0)
+wp88_bp_friends~ (1)
+wp88_bp_groups^ (0)
+wp88_bp_groups_groupmeta^ (0)
+wp88_bp_groups_members^ (0)
+wp88_bp_messages_messages^ (0)
+wp88_bp_messages_meta^ (0)
+wp88_bp_messages_notices^ (0)
+wp88_bp_messages_recipients^ (0)
+wp88_bp_notifications~ (2)
+wp88_bp_notifications_meta^ (0)
+wp88_bp_xprofile_data~ (11)
+wp88_bp_xprofile_fields~ (3)
+wp88_bp_xprofile_groups~ (1)
+wp88_bp_xprofile_meta~ (7)
+wp88_commentmeta^ (0)
+wp88_comments~ (1)
+wp88_duplicator_packages^ (0)
+wp88_gamipress_logs~ (1924)
+wp88_gamipress_logs_meta~ (7520)
+wp88_gamipress_user_earnings~ (1)
+wp88_gamipress_user_earnings_meta^ (0)
+wp88_links^ (0)
+wp88_loginizer_logs^ (0)
+wp88_mathsl_attempt~ (268)
+wp88_mathsl_problem_reports~ (7)
+wp88_mathsl_question~ (21)
+wp88_mathsl_question_child~ (440)
+wp88_mepr_events~ (288)
+wp88_mepr_jobs^ (0)
+wp88_mepr_members~ (32)
+wp88_mepr_rule_access_conditions~ (40)
+wp88_mepr_subscription_meta^ (0)
+wp88_mepr_subscriptions~ (12)
+wp88_mepr_tax_rate_locations^ (0)
+wp88_mepr_tax_rates^ (0)
+wp88_mepr_transaction_meta^ (0)
+wp88_mepr_transactions~ (48)
+wp88_options~ (379)
+wp88_postmeta~ (1431)
+wp88_posts~ (261)
+wp88_signups^ (0)
+wp88_term_relationships~ (41)
+wp88_term_taxonomy~ (23)
+wp88_termmeta^ (0)
+wp88_terms~ (23)
+wp88_usermeta~ (708)
+wp88_users~ (32)
+wp88_wpdatacharts~ (14)
+wp88_wpdatatables~ (9)
+wp88_wpdatatables_columns~ (46)
+--------------------------------------
+Search1:	'/home/deceit5/ibmastermind.com' 
+Change1:	'C:/xampp/htdocs/oldone' 
+Search2:	'\/home\/deceit5\/ibmastermind.com' 
+Change2:	'C:\/xampp\/htdocs\/oldone' 
+Search3:	'%2Fhome%2Fdeceit5%2Fibmastermind.com%2F' 
+Change3:	'C%3A%2Fxampp%2Fhtdocs%2Foldone%2F' 
+Search4:	'\home\deceit5\ibmastermind.com' 
+Change4:	'C:/xampp/htdocs/oldone' 
+Search5:	'//ibmastermind.com' 
+Change5:	'//localhost/oldone' 
+Search6:	'\/\/ibmastermind.com' 
+Change6:	'\/\/localhost\/oldone' 
+Search7:	'%2F%2Fibmastermind.com' 
+Change7:	'%2F%2Flocalhost%2Foldone' 
+Search8:	'https://localhost/oldone' 
+Change8:	'http://localhost/oldone' 
+Search9:	'https:\/\/localhost\/oldone' 
+Change9:	'http:\/\/localhost\/oldone' 
+Search10:	'https%3A%2F%2Flocalhost%2Foldone' 
+Change10:	'http%3A%2F%2Flocalhost%2Foldone' 
+SCANNED:	Tables:59 	|	 Rows:14162 	|	 Cells:77332 
+UPDATED:	Tables:1 	|	 Rows:276 	|	 Cells:314 
+ERRORS:		0 
+RUNTIME:	1.030900 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 12:06:01 - RUNTIME: 1.0646 sec.
+
+

